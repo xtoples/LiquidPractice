@@ -1,5 +1,3 @@
-# LiquidPractice Fixed By Toples
-
 ```
 Version: 1.7.x - 1.8.x
 Recommendation: Use FoxSpigot!
