@@ -1,0 +1,13 @@
+name: LiquidPractice
+main: dev.liquidnetwork.liquidpractice.LiquidPractice
+version: ${project.version}
+authors: ["Yzzird", "Toples"]
+depend:
+  - ProtocolLib
+softdepend:
+  - HolographicDisplays
+  - PlaceholderAPI
+  - MizuCore
+  - ZoomCore
+  - AquaCore
+  - Hestia
