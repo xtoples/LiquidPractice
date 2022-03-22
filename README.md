@@ -2,6 +2,6 @@
 Version: 1.7.x - 1.8.x
 Recommendation: Use FoxSpigot!
 ```
-**(!) Know that this skid source code using old version and some many bugs in software because spigot not being supported (!)**
+**__Know that this skid source code using old version and some many bugs in software because spigot not being supported__**
 
-Ups... The author is an encrypted(?)
+Ups... The author is encrypted (?)
