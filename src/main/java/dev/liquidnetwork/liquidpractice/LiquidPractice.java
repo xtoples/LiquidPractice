@@ -64,58 +64,32 @@ import java.util.logging.Logger;
 public class LiquidPractice extends JavaPlugin {
 
     private static LiquidPractice LiquidPractice;
-
     private BasicConfigurationFile mainConfig;
-
     private BasicConfigurationFile arenasConfig;
-
     private BasicConfigurationFile kitsConfig;
-
     private BasicConfigurationFile eventsConfig;
-
     private BasicConfigurationFile messagesConfig;
-
     public static Random random;
-
     @Setter private RankType rankManager;
-    
     @Setter private Rank rankSystem;
-
     private Kit hcfKit;
-
     private MongoDatabase mongoDatabase;
-
     private Aether scoreboard;
-
     private Ziggurat tab;
-
     private SumoManager sumoManager;
-
     private BracketsManager bracketsManager;
-
     private dev.liquidnetwork.liquidpractice.event.types.lms.LMSManager LMSManager;
-
     private ParkourManager parkourManager;
-
     private SpleefManager spleefManager;
-
     private OITCManager OITCManager;
-
     private WizardManager wizardManager;
-
     private KnockbackManager knockbackManager;
-
     private dev.liquidnetwork.liquidpractice.hcf.HCFManager HCFManager;
-
     private EffectRestorer effectRestorer;
-
     private Essentials essentials;
-
     @Getter
     private static Honcho honcho;
-
     private boolean disabling = false;
-
     private EntityHider entityHider;
 
     public static LiquidPractice getInstance() {
@@ -124,7 +98,6 @@ public class LiquidPractice extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
         // Disable spam logger mongodb
         Logger mongoLogger = Logger.getLogger("org.mongodb.driver.cluster");
         mongoLogger.setLevel(Level.OFF);
