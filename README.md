@@ -4,4 +4,4 @@ Recommendation: Use FoxSpigot!
 ```
 **__Know that this skid source code using old version and some many bugs in software because spigot not being supported__**
 
-Ups... The author is encrypted (?)
+Ups... Backdoor? nah
